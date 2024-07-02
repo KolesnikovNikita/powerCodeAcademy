@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="phone-number-validation/build/css/demo.css">
+        <link rel="stylesheet" href="phone-number-validation/build/css/intlTelInput.css">
+        <title>RGB</title>
+    </head>
+    <body>
+        <div class="top-layout">
+            <header class="page-header">
+                <div class="logo">
+                    <picture>
+                        <source media="(min-width: 1024px)" width="182" height="56" srcset="./assets/images/big-main-logo.svg" />
+                        <img src="./assets/images/mobile-main-logo.svg" width="100" height="32" alt="questions" />
+                    </picture>
+                </div>
+                <div class="page-header__date">
+                    <div class="page-header__options">
+                        <picture>
+                            <source media="(min-width: 1024px)" width="15" height="15" srcset="./assets/images/calendar_today-big.svg" alt="globe" />
+                            <img width='13' height='13' src="./assets/images/calendar_today.svg" alt="globe" />
+                        </picture>
+                        <span>28 декабря
+                        </div></span>
+                    <div class="page-header__options">
+                        <picture>
+                            <source media="(min-width: 1024px)" width="17" height="17" srcset="./assets/images/Clock-big.svg" alt="time" />
+                            <img width='13' height='13' src="./assets/images/Clock.svg" alt="time" />
+                        </picture>
+                        <span>3,5 часа</span>
+                    </div>
+                </div>
+            </header>
+    
+            <main class="page-content">
+                <section class="hero">
+                    <div class="hero-content">
+                        <div class="hero-content__webinar">
+                            <div><picture>
+                                <source media="(min-width: 1024px)" width="19" height="19" srcset="./assets/images/globe-big.svg" alt="globe" />
+                                <img width='13' height='13' src="./assets/images/globe.svg" alt="globe" />
+                            </picture></div>
+                           <div> Вебинар</div>
+                        </div>
+                        <h1 class="hero__title">Front-End</h1>
+                        <p class="hero__subtitle"><span class='special'>с нуля</span> <span class='easy-start'>легкий старт в IT профессии</span></p>
+                        <p class="hero__description">
+                            Узнайте какими <b>навыками должен обладать фронтенд разработчик в 2022 году</b> н и как начать карьеру в
+                            востребованной профессии
+                        </p>
+                    </div>
+                    <div class="form-content">
+                        <form id='landing-form' class="form" >
+                            <fieldset class="form__fieldset">
+                                <legend class="form__legend">Запишитесь <span>бесплатно</span> <br /> и получите подарок</legend>
+                                <input
+                                    class="form__input"
+                                    placeholder="Ваше имя и фамилия"
+                                    type="text"
+                                    id='username'
+                                    required
+                                    name="name"
+                                />
+                                <input
+                                    class="form__input"
+                                    id='phone'
+                                    placeholder='Ваш номер телефона'
+                                    type="tel"
+                                    
+                                    required
+                                    name="phone"
+                                />
+                                <input
+                                    class="form__input"
+                                    placeholder="Ваш email"
+                                    type="email"
+                                    required
+                                    name="email"
+                                />
+                                <input class="form__submit" type="submit" value="Записаться бесплатно" />
+                            </fieldset>
+                        </form>
+                        
+                        <p class="form__agreement">
+                            Нажимая на кнопку я согашаюсь <br /> <a href="#">с политикой конфидециальности</a>
+                        </p>
+                    </div>
+                    <div class="features">
+                        <div class="features__content">
+                            <div class="features__content-image"><img src="./assets/images/bonus.svg" width='46' height='46' alt="bonus" /></div>
+                            <div class="features__content-description">
+                                <h3>Бонус за регистрацию</h3>
+                                <p class='advantages'></p>
+                            </div>
+                        </div>
+                        <div class="features__content">
+                            <div class="features__content-image"><img src="./assets/images/person.svg" width='50' height='50' alt="Kasatonov" /></div>
+                            <div class="features__content-description">
+                                <h3 class='features__content-name'>Кирилл <span>Касатонов</span></h3>
+                                <p class='experience'>
+                                    6 лет коммерческого опыта с такими компаниями как Mercedes-Benz и другими крупными
+                                    корпорациями
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+               
+                <section class="technologies">
+                    <img class='technologies__circle-html' src="./assets/images/Ellipse-HTML.svg" alt="circle-orange" />
+                    <img class='technologies__logo-html' src="./assets/images/HTML5_logo_and_wordmark.svg" alt="html" />
+                    <img class='technologies__circle-css' src="./assets/images/Ellipse-CSS.svg" alt="circle-blue" />
+                    <img class='technologies__logo-css' src="./assets/images/CSS3_logo_and_wordmark.svg" alt="css" />
+                    <img class='technologies__circle-js' src="./assets/images/Ellipse-JS.svg" alt="circle-yellow" />
+                    <img class='technologies__logo-js' src="./assets/images/javascript_logo.svg" alt="javascript" />
+                    <img class='technologies__circle-sublime' src="./assets/images/Ellipse-Subline.svg" alt="circle-orange" />
+                    <img class='technologies__logo-sublime' src="./assets/images/sublime-text 1.svg" alt="sublime-text" />
+                    <img class='technologies__circle-visualStudio' src="./assets/images/Ellipse-Visual-Studio.svg" alt="circle-blue" />
+                    <img class='technologies__logo-visualStudio' src="./assets/images/Visual_Studio_Code_1.35_icon.svg" alt="visual-studio" />
+                </section>
+            </main>
+        </div>
+        <script src='/index.js'></script>
+        <script src='/phone-number-validation/build/js/intlTelInput.js'></script>
+        <script src='/api/fetch.js'></script>
+    </body>
+</html>
